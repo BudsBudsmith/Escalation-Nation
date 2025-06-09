@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escalation Nation</title>
+  <style>
+    body {
+      background-color: #fdf6e3;
+      color: #002b36;
+      font-family: Impact, Charcoal, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(to right, #eee8d5, #d33682);
+      padding: 2rem;
+      color: #002b36;
+    }
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    section {
+      padding: 2rem;
+      border-bottom: 2px solid #d33682;
+    }
+    .fake-store, .videos {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .testimonials {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .store-item, .testimonial, .video {
+      background-color: #eee8d5;
+      padding: 1rem;
+      border: 2px dashed #d33682;
+      margin: 0 auto;
+      max-width: 600px;
+      color: #002b36;
+    }
+    .testimonial {
+      flex: 1 1 calc(25% - 2rem);
+      max-width: calc(25% - 2rem);
+    }
+    .store-item img, .video img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 0.5rem;
+    }
+    .store-item a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #d33682;
+      text-decoration: underline;
+    }
+    .video img {
+      border: 2px solid #d33682;
+      margin-top: 1rem;
+    }
+    footer {
+      background: #eee8d5;
+      padding: 1rem;
+      color: #586e75;
+    }
+      .quotes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .quotes .testimonial {
+      flex: 1 1 calc(25% - 2rem);
+      max-width: calc(25% - 2rem);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ESCALATION NATION</h1>
+    <p><em>Peace Through Louder Conflict™</em></p>
+  </header>
+
+  <section class="quotes">
+    <h2>Notable Quotes From the Escalation Archives</h2>
+    <div class="testimonial">
+      "When the looting starts, the shooting starts."<br>
+      – President Donald J. Trump, May 29, 2020 (Twitter)
+    </div>
+    <div class="testimonial">
+      "I don't think we have a problem with the police being too tough on criminals."<br>
+      – Gov. Ron DeSantis, 2022 (Public speech)
+    </div>
+    <div class="testimonial">
+      "We will always back the blue. Always. Without apology."<br>
+      – Sen. Josh Hawley, 2021 (Senate floor statement)
+    </div>
+    <div class="testimonial">
+      "We should be using every tool at our disposal to restore law and order."<br>
+      – Sen. Tom Cotton, 2020 (NYT Op-Ed)
+    </div>
+    <div class="testimonial">
+      "It's not the role of the police to babysit protesters."<br>
+      – Rep. Marjorie Taylor Greene, 2023 (Podcast appearance)
+    </div>
+  </section>
+
+  <section class="fake-store">
+    <h2>Tactical Tools Storefront</h2>
+    <div class="store-item">
+      <strong>Freedom Mace™</strong>
+      <p>Smells like liberty. Burns like justice.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CS_spray.jpg/640px-CS_spray.jpg" alt="Freedom Mace spray can">
+      <a href="#">Buy Now</a>
+    </div>
+    <div class="store-item">
+      <strong>Bluetooth Riot Baton</strong>
+      <p>Syncs with your playlist and your squad. Stream while you swing.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Baton_%28PSP%29.jpg/640px-Baton_%28PSP%29.jpg" alt="Bluetooth Riot Baton">
+      <a href="#">Buy Now</a>
+    </div>
+    <div class="store-item">
+      <strong>Pre-Cracked Shield</strong>
+      <p>Looks like you've been in action before you even start.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Riot_police_shield.jpg/640px-Riot_police_shield.jpg" alt="Pre-Cracked Shield">
+      <a href="#">Buy Now</a>
+    </div>
+  </section>
+
+  <section class="videos">
+    <h2>Training Videos</h2>
+    <div class="video">
+      <strong>Shouting 101</strong>
+      <p>Learn the basics of yelling with righteous purpose.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Man_yelling.jpg/640px-Man_yelling.jpg" alt="Shouting 101 thumbnail">
+    </div>
+    <div class="video">
+      <strong>Escalation Yoga</strong>
+      <p>Find your inner fury through tactical stretching.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Yoga_class_2011.jpg/640px-Yoga_class_2011.jpg" alt="Escalation Yoga thumbnail">
+    </div>
+    <div class="video">
+      <strong>How to Misidentify a Picnic</strong>
+      <p>Field training: when families become flashpoints.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Picnic.jpg/640px-Picnic.jpg" alt="How to Misidentify a Picnic thumbnail">
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>User Testimonials</h2>
+    <div class="testimonial">
+      "I deployed the Tactical Choir at a PTA meeting. People still talk about it."<br>
+      – Barbara K., Florida
+    </div>
+    <div class="testimonial">
+      "I escalated a yoga retreat. Best day of my life."<br>
+      – Greg T., Texas
+    </div>
+    <div class="testimonial">
+      "I wore the Pre-Cracked Shield to my wedding. Nobody questioned a thing."<br>
+      – Dale R., Montana
+    </div>
+    <div class="testimonial">
+      "Our HOA now uses Bluetooth Batons to settle disputes. Revolutionary."<br>
+      – Sheila N., Arizona
+    </div>
+    <div class="testimonial">
+      "Freedom Mace got rid of the raccoons *and* my doubts."<br>
+      – Leonard F., Georgia
+    </div>
+    <div class="testimonial">
+      "We replaced therapy with Escalation Yoga. We no longer feel emotions."<br>
+      – Unity Circle #47, Nebraska
+    </div>
+    <div class="testimonial">
+      "The Patriot Meter maxed out during brunch. Five stars."<br>
+      – Whitney V., Ohio
+    </div>
+    <div class="testimonial">
+      "I used Shouting 101 to win custody. Technically."<br>
+      – Arnold B., Nevada
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      A proudly fictional initiative of the Department of Increased Response (DIR).<br>
+      Not affiliated with anything that should sue us. <br>
+      <em>Copyright © 2025 Escalation Nation</em>
+    </p>
+  
+  </footer>
+
+  <section>
+    <h2>Contact the Department of Escalatory Affairs</h2>
+    <form action="mailto:Jesussavesbutts@yahoo.com" method="POST" enctype="text/plain" style="max-width:600px; margin: 0 auto; text-align: left;">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" style="width: 100%; margin-bottom: 1rem;"><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" style="width: 100%; margin-bottom: 1rem;"><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" style="width: 100%; margin-bottom: 1rem;"></textarea><br>
+
+      <input type="submit" value="Deploy Message" style="background-color: #d33682; color: white; padding: 0.5rem 1rem; border: none; cursor: pointer;">
+    </form>
+  </section>
+</body>
+</html>
